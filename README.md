@@ -16,4 +16,4 @@ When examining the data, we found that the file was large, with almost 750,000 l
 
 We then each began examining the questions we asked and determined the best visualizations to display that data. The purpose here was to accurately represent the data in a way that is easy to understand and easy to use. For example, when accessing the project files, if a user wanted to interact with the heatmap, they simply need to open the html file with the live server and interact with the drop-down menu to view the data for each year.
 
-Taking into account ethical considerations, this dataset does not contain any personally identifiable information like names, addresses, or license plate numbers, making sure that the driver's personal information is kept safe.
+Taking into account ethical considerations, this dataset does not contain any personally identifiable information like names, addresses, or license plate numbers, making sure that the driver's personal information is kept safe. It was important to us also to make sure that data was not skewed in any way, and based on our analysis we did not find any bias.
