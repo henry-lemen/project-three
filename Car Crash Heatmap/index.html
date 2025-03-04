@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Chicago Car Crashes</title>
+
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""/>
+
+    <!-- Leaflet JavaScript code -->
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet.heat/dist/leaflet-heat.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+  
+
+    <script src="https://unpkg.com/leaflet-heat/dist/leaflet-heat.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+
+    <!-- D3 library -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+
+    <!-- Our CSS -->
+    <link rel="stylesheet" type="text/css" href="Style_CSS/heatmapstyle.css">
+
+  </head>
+  <body style="background-color:rgb(248, 236, 219)">
+
+    <!-- map div -->
+    <h1><span style="color: red; font-weight: bold; font-family: courier;">Chicago Car Crash Heatmap</span></h1>
+    <p><span style="font-family: courier;">This is a heatmap demonstrating the density of reported car crashes across the city of Chicago. Using the dropdown selector, you can view how the heatmap changes each year.</span></p>
+
+    <select id="yearSelect" onchange="loadData()">
+      <option>Select a Year</option>
+      <option value="2018">2018</option>
+      <option value="2019">2019</option>
+      <option value="2020">2020</option>
+      <option value="2021">2021</option>
+      <option value="2022">2022</option>
+    </select>
+
+    <div id="totalCrashes">Total Number of Crashes: 0</div>
+    <div id="map"></div>
+
+    <!-- JavaScript file -->
+    <script type="text/javascript" src="Heatmap_JS/heatmap.js"></script>
+
+  </body>
+</html>
