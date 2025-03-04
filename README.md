@@ -13,7 +13,10 @@ Taking into account ethical considerations, this dataset does not contain any pe
 
 Questions Asked:
 What is the distribution of car crashes by neighborhood in Chicago?
-What is the frequency of car crashes across Chicago?
+
+##What is the frequency of car crashes across Chicago?
+Based on the data, we saw an overall decrease in the number of crashes over time, with the lowest number of crashes in occurring in 2020 likey due to the Covid-19 pandemic with more people staying home and less cars on the road. However, even with the overall decrease in crashes, the data still shows the same area with higher crash frequency year over year, including the neighborhoods of the Loop, River North, and parts of the West Loop. This shows that these are the areas with the highest frequency of car crashes year over year.
+
 ## What are the major causes of car crashes in Chicago?
 Based on the bar chart analysis:
 Failing to Yield Right-of-Way – A leading cause across all years.
