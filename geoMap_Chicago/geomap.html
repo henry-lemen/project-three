@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Chicago Traffic Accidents</title>
+
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin="" />
+
+  <!-- Leaflet JavaScript code -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""></script>
+
+  <!-- Leaflet Ajax -->
+  <script src="https://unpkg.com/leaflet-ajax/dist/leaflet.ajax.min.js"></script>
+  
+  <!-- PapaParse library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+
+   <!--css for style -->
+  <link rel="stylesheet" type="text/css" href="css/geomap.css">
+</head>
+
+<body>
+  <!-- div for dropdown container -->
+  <div id="dropdown-container">
+
+    <label for="year-select">Select Year:</label>
+    <select id="year-select">
+        <option value="2018">2018</option>
+        <option value="2019">2019</option>
+        <option value="2020">2020</option>
+        <option value="2021">2021</option>
+        <option value="2022">2022</option>
+    </select>
+
+  </div>
+
+  <div id="map-title">Chicago Neighborhood Crash Data</div>  
+
+  <!-- div for  map -->
+  <div id="map-id"></div>
+
+  <!-- Javascript file -->
+  <script type="text/javascript" src="js/geomap.js"></script>
+</body>
+
+</html>
