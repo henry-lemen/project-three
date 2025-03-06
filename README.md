@@ -30,4 +30,18 @@ From the pie chart analysis:
 Evening Rush Hour (4:00 – 5:00 PM) – The highest number of crashes occur during this period, likely due to traffic congestion and driver fatigue.
 Morning Commute (8:00 – 11:00 AM) – Another peak time as people travel to work and school.
 Late Night & Early Morning (After 8:00 PM, Before 7:00 AM) – Lower crash frequency due to reduced traffic.
+
+## GeoJSON map
+Clicking through the different neighborhoods and years, it can be seen that in the year 2020 there was a significant decrease in the amount of traffic accidents. This can be seen in almost any neighborhood that is clicked on. One outlier was the Austin neighborhood in the west central part of the city where accidents actually increased. In the year that there was less traffic in general, the amount of accidents decreased.
+
+Some links used for reference:
+PapaParse
+https://thaekeh.medium.com/processing-csv-files-with-javascript-and-papa-parse-5e69fd951baa
+GeoPandas
+https://geopandas.org/en/v0.5.0/gallery/create_geopandas_from_pandas.html
+
+
+
+
+
 Project Overiew: In this project, we are examining car crash data. This data is important to analyze, since it can help us to understand factors like areas of the city where car crashes are more likely to occur, time of day crashes are more likely to occur, and the major causes of car crashes. By understanding these things, a plan can be developed to help reduce the number of crashes, or funding for traffic safety programs can be allocated to the proper areas.
