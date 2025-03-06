@@ -39,6 +39,8 @@ PapaParse
 https://thaekeh.medium.com/processing-csv-files-with-javascript-and-papa-parse-5e69fd951baa
 GeoPandas
 https://geopandas.org/en/v0.5.0/gallery/create_geopandas_from_pandas.html
+GeoJSON file source
+https://github.com/blackmad/neighborhoods/blob/master/chicago.geojson?short_path=5e4e158
 
 
 
